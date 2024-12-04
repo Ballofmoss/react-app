@@ -1,7 +1,36 @@
 .primary {
-    background-color: red;
+  --text-color: #fff;
+  background-color: rgb(48, 169, 255);
+  color: var(--text-color);
+  .icon svg {
+    color: var(--text-color);
+  }
 }
 
 .secondary {
-    background-color: blue;
+  background-color: rgb(163, 217, 255);
+  color: #000;
+}
+
+.button {
+  padding: 7px 14px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  --scale-icon: 24px;
+  margin-left: -5px;
+  width: var(--scale-icon);
+  height: var(--scale-icon);
+  svg {
+    width: var(--scale-icon);
+    height: var(--scale-icon);
+  }
+}
+
+.onlyIcon {
+  margin-left: 0;
 }

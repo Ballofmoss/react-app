@@ -1,19 +1,19 @@
-import { useState } from "react"
 import { Button } from "./ui"
+import { PlusIcon } from "./ui/icons"
+import { Typography } from "./ui/Typography/Typography"
 
 export const Root = () => {
-    const [isShow, setIsShow] = useState<boolean>(false) 
-    const toggleJaba = () => {
-        setIsShow((prev) => !prev)
-    }
-    return (
-        <>
-            <div>test</div>
-            <Button onClick={toggleJaba}>Убери жабу</Button>
-            {isShow ? <Button variant="secondary" >Жаба</Button> : <div>жаба пропала бля</div>}
-            <div>test1</div>
-            <div>test2</div>
-            <div>test3</div>
-        </>
-    )
+  return (
+    <>
+      <div>test</div>
+      <Button icon={<PlusIcon />}>Жаба</Button>
+      <Button icon={<PlusIcon />}></Button>
+      <Typography className="ty54t5" tag="h1">
+        Транс порт
+      </Typography>
+      <Typography tag="h2">Транс порт</Typography>
+      <Typography tag="h3">Транс порт</Typography>
+      <Typography>Транс порт</Typography>
+    </>
+  )
 }
