@@ -1,0 +1,27 @@
+.trigger {
+  background-color: rgb(48, 169, 255);
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.content {
+  min-width: var(--radix-select-trigger-width);
+  max-height: var(--radix-select-content-available-height);
+  padding: 2px;
+  background-color: rgb(244, 244, 244);
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.selectItem {
+  background-color: rgb(48, 169, 255);
+  color: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}

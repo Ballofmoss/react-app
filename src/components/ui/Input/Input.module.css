@@ -1,0 +1,28 @@
+.primary {
+    --text-color: #fff;
+    background-color: rgb(48, 169, 255);
+    color: var(--text-color);
+    .icon svg {
+      color: var(--text-color);
+    }
+  }
+  
+  .secondary {
+    background-color: rgb(163, 217, 255);
+    color: #000;
+  }
+  
+  .input {
+    padding: 7px 14px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .input::placeholder {
+    color: #fff;
+    opacity: .7;
+  }
+  

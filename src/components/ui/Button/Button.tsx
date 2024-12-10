@@ -12,9 +12,7 @@ export const Button = ({
   icon,
   className,
   ...props
-}: IButtonProps & PropsWithChildren) => {
-  console.log(children)
-
+}: PropsWithChildren<IButtonProps>) => {
   return (
     <button
       {...props}
